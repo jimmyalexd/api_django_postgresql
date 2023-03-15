@@ -1,0 +1,11 @@
+{% extends "api/base.html" %}
+
+{% block title %}Mapa de puntos{% endblock %}
+
+{% block content %}
+{{ map|safe }}
+{% endblock %}
+
+{% block scripts %}
+<!-- aquí podrías agregar cualquier otro script que necesites, como por ejemplo el código JavaScript para cargar los puntos en el mapa -->
+{% endblock %}

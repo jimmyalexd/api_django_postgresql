@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Título por defecto{% endblock %}</title>
+  {% block head %}
+  <!-- aquí podrías agregar cualquier otro contenido para el head de la página -->
+  {% endblock %}
+</head>
+<body>
+  {% block content %}
+  <!-- aquí iría el contenido específico de cada página -->
+  {% endblock %}
+
+  {% block scripts %}
+  <!-- aquí podrías agregar cualquier otro script que necesites -->
+  {% endblock %}
+</body>
+</html>
